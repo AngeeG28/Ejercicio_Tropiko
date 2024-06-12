@@ -1,0 +1,15 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.tasty{
+    background-image: url(images/tasty-image.png);
+}
+
+div.imagen_footer{
+    width: 100px;
+    height: 250px;
+    background-image: url(images/orange-dish.png);
+    
+}
