@@ -4,101 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <div class="logo"> 
-            <figure>
-                <img src="./images/logo.png" alt="">
-            </figure>
-        </div>
-        <div>TROPIKO</div>
-        <div class="menu">Fruits</div>
-        <div class="menu">Home</div>
-        <div class="menu">Services</div>
-        <div class="menu">Contact us</div>
-        <div> 
-            <img src="./images/search-icon.png" alt="Buscar">
-        </div>
-        <button>GET A QUOTE</button>
+        <div class="grid">
+            <nav class="nav container" id="nav">
+                <a href="#">
+                    <img src="./images/logo.png" alt="" class="img" id="logo">
+                </a>
+                <h2>TROPIKO</h2>
+                <div class="div-menu">
+                    <a href="#" class="menu">Home</a>
+                    <a href="#" class="menu">Fruits</a>
+                    <a href="#" class="menu">Services</a>
+                    <a href="#" class="menu" id="contactanos">Contact us</a>
+                    <a href="#" class="menu">
+                        <img src="./images/search-icon.png" alt="Buscar" class="img" id="img-buscar">
+                    </a>
+                    <button id="btn-get">GET A QUOTE</button>
+                </div>
+                
+            </nav> 
+            <div class="text-bienvenida">
+                <h1 class="bienevenida">Welcome to
+                    <h1 class="bienevenida">Our Fruits Shop</h1>
+                </h1>
+                <p class="p-bienvenida">Lorem ipsum dolor sit amet consectetur adipisicing elit rerum tempora. Magnam, temporibus, rerum tempora possimus libero nam enim nobis odio aliquid dolor totam, similique tempore aut veritatisnon.</p>
+                <div class="botones">
+                    <button id="btn-comprar">SHOP NOW</button>
+                    <button id="btn-contacto">CONTACT US</button>
+                </div>
+            </div>
+            <div class="img-slide">
+                <img src="./images/slide-img.png" alt="" class="img">
+            </div>
+        </div>   
     </header>
-    <section>
-        <h1>Welcome to Our Fruits Shop</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, temporibus, rerum tempora possimus libero nam enim nobis odio aliquid dolor totam, similique tempore aut. Veritatis non ad inventore ullam quas.</p>
-        <div>
-            <button>SHOP NOW</button>
-            <button>CONTACT US</button>
-        </div>
-        <div>
-            <img src="./images/slide-img.png" alt="">
-        </div>
-    </section>
     <main class="contenido">
-        <h2>Our Services</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit id fugas</p>
-        <div class="tarjetas">
-            <div>
-                <h3>Orange</h3>           
-                <figure>
-                    <img src="./images/card-item-1.png" alt="">
-                </figure>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos recusandae autem est quisquam consequatur vero fugit placeat consectetur, pariatur ipsum deserunt porro suscipit eligendi, eum aliquam dolorem! Iusto, magnam cumque.</p>
+        <section class="servicios">
+            <div class="grid">
+                <div class="servicios_info" id="">
+                    <h2>Our Services</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit id fugas</p>
+                </div>       
+                <div class="tarjetas">
+                    <div class="tarjeta">
+                        <h3>Orange</h3>           
+                        <figure>
+                            <img src="./images/card-item-1.png" alt="" class="img">
+                        </figure>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos recusandae autem est quisquam consequatur vero fugit placeat consectetur, pariatur ipsum deserunt porro suscipit eligendi, eum aliquam dolorem! Iusto, magnam cumque.</p>
+                    </div>
+                    <div class="tarjeta">
+                        <div>
+                            <h3>Grapes</h3>
+                            <figure>
+                                <img src="./images/card-item-2.png" alt="" class="img">
+                            </figure>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos recusandae autem est quisquam consequatur vero fugit placeat consectetur, pariatur ipsum deserunt porro suscipit eligendi, eum aliquam dolorem! Iusto, magnam cumque.</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta">
+                        <div>
+                            <h3>Gauva</h3>
+                            <figure>
+                                <img src="./images/card-item-3.png" alt="" class="img">
+                            </figure>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos recusandae autem est quisquam consequatur vero fugit placeat consectetur, pariatur ipsum deserunt porro suscipit eligendi, eum aliquam dolorem! Iusto, magnam cumque.</p>
+                        </div>
+                        <button>Read More</button>
+                    </div>
+                </div>               
             </div>
-        </div>
-        <div>
-            <div>
-                <h3>Grapes</h3>
-                <figure>
-                    <img src="./images/card-item-2.png" alt="">
-                </figure>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos recusandae autem est quisquam consequatur vero fugit placeat consectetur, pariatur ipsum deserunt porro suscipit eligendi, eum aliquam dolorem! Iusto, magnam cumque.</p>
-            </div>
-        </div>
-        <div>
-            <div>
-                <h3>Gauva</h3>
-                <figure>
-                    <img src="./images/card-item-3.png" alt="">
-                </figure>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos recusandae autem est quisquam consequatur vero fugit placeat consectetur, pariatur ipsum deserunt porro suscipit eligendi, eum aliquam dolorem! Iusto, magnam cumque.</p>
-            </div>
-            <button>Read More</button>
-        </div>
-        <div class="frutas">
-            <h2>Fresh Fruits</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit totam quam repellat nostrum eos voluptas
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reiciendis dicta nam voluptatibus aut numquam eligendi ut quasi cumque illo blanditiis enim quaerat doloribus veritatis, maxime ipsa a ad tempore?</p>
-            </p>
-            <div>Best Fresh Orange
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reiciendis dicta nam voluptatibus aut numquam eligendi ut quasi cumque illo blanditiis enim quaerat doloribus veritatis, maxime ipsa a ad tempore?</p>
-                <button>Buy Now</button>
-                <div>
-                    <img src="./images/orange.png" alt="">
+        </section>
+        <section class="vista_frutas">
+            <div class="grid">
+                <div class="frutas_info">
+                    <h2>Fresh Fruits</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit totam quam repellat nostrum eos voluptas
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reiciendis dicta nam voluptatibus aut numquam eligendi ut quasi cumque illo blanditiis enim quaerat doloribus veritatis, maxime ipsa a ad tempore?</p>
+                    </p>
                 </div>
+                <div class="frutas_frescas">
+                    <div class="fruta">
+                        <h4>Best Fresh Orange</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reiciendis dicta nam voluptatibus aut numquam eligendi ut quasi cumque illo blanditiis enim quaerat doloribus veritatis, maxime ipsa a ad tempore?</p>
+                        <button>Buy Now</button>
+                        <div>
+                            <img src="./images/orange.png" alt="" class="img">
+                        </div>
+                    </div>
+                    <div class="fruta">
+                        <h4>Best Fresh Grapes</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reiciendis dicta nam voluptatibus aut numquam eligendi ut quasi cumque illo blanditiis enim quaerat doloribus veritatis, maxime ipsa a ad tempore?</p>
+                        <button>Buy Now</button>
+                        <div>
+                            <img src="./images/grapes.png" alt="" class="img">
+                        </div>
+                    </div>
+                    <div class="fruta">
+                        <h4>Best Fresh Gauva></h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reiciendis dicta nam voluptatibus aut numquam eligendi ut quasi cumque illo blanditiis enim quaerat doloribus veritatis, maxime ipsa a ad tempore?</p>
+                        <button>Buy Now</button>
+                        <div>
+                            <img src="./images/gauva.png" alt="" class="img">
+                        </div>
+                    </div>
+                </div>            
             </div>
-            <div>Best Fresh Grapes
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reiciendis dicta nam voluptatibus aut numquam eligendi ut quasi cumque illo blanditiis enim quaerat doloribus veritatis, maxime ipsa a ad tempore?</p>
-                <button>Buy Now</button>
-                <div>
-                    <img src="./images/grapes.png" alt="">
-                </div>
-            </div>
-            <div>Best Fresh Gauva
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique reiciendis dicta nam voluptatibus aut numquam eligendi ut quasi cumque illo blanditiis enim quaerat doloribus veritatis, maxime ipsa a ad tempore?</p>
-                <button>Buy Now</button>
-                <div>
-                    <img src="./images/gauva.png" alt="">
-                </div>
-            </div>
-        </div>
-    </main>
-    <section class="tasty">
-        <h1>VERY TASTY FRUITS</h1>        
-    </section>
+        </section>
+        <section class="tasty">
+            <h1>VERY TASTY FRUITS</h1>        
+        </section>
+    </main>  
     <footer>
-        <div class="contacto">
-            <div>
+        <div class="grid">
+            <div class="contacto">
                 <h2>Contact Us</h2>
                 <input type="text" placeholder="Name">
                 <input type="number" placeholder="Phone Number">
