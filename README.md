@@ -19,7 +19,7 @@ index.html    # Página principal
 styles.css    # Estilos de la página
 
 Vista previa:
-
+<img width="450" height="959" alt="{8FE54F7E-416B-4E72-9241-1FDFC220A106}" src="https://github.com/user-attachments/assets/55970c1c-1e7b-4e6f-af98-82fe5c06212b" />
 
 Autor:
 Angee Camila Gonzalez. – Estudiante de Ingeniería de Sistemas
