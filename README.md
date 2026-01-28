@@ -14,8 +14,11 @@ Tecnologías utilizadas
 - CSS3
   
 Estructura del proyecto:
+
 images/       # Carpeta con recursos gráficos
+
 index.html    # Página principal
+
 styles.css    # Estilos de la página
 
 
